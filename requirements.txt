@@ -29,6 +29,7 @@ Django==5.0.2
 django-ckeditor==6.7.2
 django-js-asset==3.0.1
 django-redis==5.4.0
+django-redis-cache==3.0.1
 djangorestframework==3.15.2
 executing==2.0.1
 fastjsonschema==2.20.0
@@ -36,6 +37,7 @@ flake8==7.1.1
 Flask==3.0.3
 fqdn==1.5.1
 googletrans==4.0.2
+gunicorn==23.0.0
 h11==0.14.0
 h2==3.2.0
 hpack==3.0.0
@@ -103,12 +105,13 @@ pytest==8.3.4
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
 pytz==2024.1
+pywin32==308
 pywinpty==2.0.13
 PyYAML==6.0.1
 pyzmq==26.0.3
 qtconsole==5.5.2
 QtPy==2.4.1
-redis==5.2.1
+redis==3.5.3
 referencing==0.35.1
 regex==2024.11.6
 requests==2.32.3
